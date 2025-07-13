@@ -1,0 +1,25 @@
+{
+  "users": [
+    {"email": "alice@example.com", "name": "Alice", "password": "alicepass"},
+    {"email": "bob@example.com", "name": "Bob", "password": "bobpass"},
+    {"email": "carol@example.com", "name": "Carol", "password": "carolpass"}
+  ],
+  "teams": [
+    {"name": "Team Alpha", "members": ["alice@example.com", "bob@example.com"]},
+    {"name": "Team Beta", "members": ["carol@example.com"]}
+  ],
+  "activity": [
+    {"user": "alice@example.com", "activity_type": "run", "duration": 30, "date": "2025-07-13T08:00:00Z"},
+    {"user": "bob@example.com", "activity_type": "walk", "duration": 45, "date": "2025-07-13T09:00:00Z"},
+    {"user": "carol@example.com", "activity_type": "cycle", "duration": 60, "date": "2025-07-13T10:00:00Z"}
+  ],
+  "leaderboard": [
+    {"team": "Team Alpha", "points": 100},
+    {"team": "Team Beta", "points": 80}
+  ],
+  "workouts": [
+    {"user": "alice@example.com", "workout_type": "cardio", "details": "30 min run", "date": "2025-07-13T08:00:00Z"},
+    {"user": "bob@example.com", "workout_type": "strength", "details": "45 min weights", "date": "2025-07-13T09:00:00Z"},
+    {"user": "carol@example.com", "workout_type": "yoga", "details": "60 min yoga", "date": "2025-07-13T10:00:00Z"}
+  ]
+}
